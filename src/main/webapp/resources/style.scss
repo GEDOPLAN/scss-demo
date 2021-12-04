@@ -1,0 +1,24 @@
+@import 'variables';
+
+header {
+  @extend %box-padding;
+  color: white;
+
+  h1 {
+    margin: $default-spacing * 0.5;
+  }
+
+  &:hover {
+    background: darken($main-color, 20%);
+  }
+
+  & > image.logo {
+    float: right
+  }
+}
+
+
+footer {
+  @extend %box-padding;
+  border-top: 1px solid black;
+}

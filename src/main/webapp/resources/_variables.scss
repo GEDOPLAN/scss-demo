@@ -1,0 +1,8 @@
+$main-color: rgb(13, 93, 235);
+$default-spacing: 20px;
+
+%box-padding {
+  padding: $default-spacing;
+  margin-top: 5px;
+  background: $main-color;
+}
