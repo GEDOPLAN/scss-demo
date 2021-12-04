@@ -1,4 +1,4 @@
-= Demo for SCSS usage with Maven
+Demo for SCSS usage with Maven
 
 `mvn install`
 
